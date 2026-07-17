@@ -10,12 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: "21"
       - uses: DeLaGuardo/setup-clojure@13.4
         with:
+          bb: latest
           cli: latest
-      - run: clojure -M:test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: ./run_tests.sh
+      - run: python -m unittest discover -s tests -v
       - run: clojure -M:lint

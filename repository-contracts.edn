@@ -1,0 +1,9 @@
+{:schema-version 1
+ :repository "kotoba-lang/com-post-quantum"
+ :kind :compat-library
+ :canonical-metadata-format :edn
+ :source-of-truth {:clojure "methods"
+                   :clean-room-runtime "src/main.py"
+                   :schema "schema/post_quantum.kotoba"}
+ :external-wire-formats #{:openapi-json :actor-manifest-json}
+ :legacy-source "etzhayyim/root:20-actors/post_quantum_compat"}

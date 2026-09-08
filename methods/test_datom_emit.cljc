@@ -3,7 +3,7 @@
   Expected values captured from the REAL Python (methods/datom_emit.py --tx 1):
   93 lines / 5687 chars, byte-identical structure."
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [post-quantum-compat.methods.datom-emit :as d]))
 
 (deftest emit-shape

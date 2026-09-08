@@ -18,7 +18,7 @@
   datoms, transient coverage block)."
   (:require [post-quantum-compat.methods.suite :as s]
             [post-quantum-compat.methods.datom-emit :as de]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is run-tests]]))
 
 (deftest coverage-report-parity

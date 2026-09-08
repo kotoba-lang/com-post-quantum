@@ -14,7 +14,7 @@
       block so a reader never mistakes it for persisted state.
 
   Pure stdlib. Keywords are kept as \":ns/name\" strings to mirror Python."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [post-quantum-compat.methods.suite :as suite]))
 
 ;; LAYER_ATTRS — emit order for the durable scalar layer attributes.

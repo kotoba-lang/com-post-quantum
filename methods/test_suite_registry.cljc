@@ -7,7 +7,7 @@
   stratified. Tests the cljc-twinned suite + datom-emit modules (no network, pure)."
   (:require [clojure.test :refer [deftest is]]
             [clojure.set :as set]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [post-quantum-compat.methods.suite :as suite]
             [post-quantum-compat.methods.datom-emit :as datom-emit]))
 

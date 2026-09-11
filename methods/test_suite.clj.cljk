@@ -1,5 +1,5 @@
 #!/usr/bin/env bb
-;; Clojure test for methods/suite.cljc + datom_emit.cljc — post_quantum-compat.
+;; Clojure test for methods/suite.cljk + datom_emit.cljc — post_quantum-compat.
 ;; (No python test existed; this is fresh coverage. `emit` is byte-identical to
 ;;  the python emitter — verified by run_tests.sh's diff step.)
 ;;

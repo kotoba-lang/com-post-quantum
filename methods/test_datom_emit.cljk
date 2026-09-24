@@ -2,7 +2,7 @@
   "Cross-language oracle tests for post-quantum-compat.methods.datom-emit.
   Expected values captured from the REAL Python (methods/datom_emit.py --tx 1):
   93 lines / 5687 chars, byte-identical structure."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [kotoba.lang.text :as str]
             [post-quantum-compat.methods.datom-emit :as d]))
 

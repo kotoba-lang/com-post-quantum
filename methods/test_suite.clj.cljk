@@ -19,7 +19,7 @@
   (:require [post-quantum-compat.methods.suite :as s]
             [post-quantum-compat.methods.datom-emit :as de]
             [kotoba.lang.text :as str]
-            [clojure.test :refer [deftest is run-tests]]))
+            [kotoba.test :refer [deftest is run-tests]]))
 
 (deftest coverage-report-parity
   (let [c (s/coverage-report)]

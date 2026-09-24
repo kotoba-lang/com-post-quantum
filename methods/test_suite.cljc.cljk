@@ -1,7 +1,7 @@
 (ns post-quantum-compat.methods.test-suite
   "Cross-language oracle tests for post-quantum-compat.methods.suite.
   Expected values captured by running the REAL Python (methods/suite.py)."
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [post-quantum-compat.methods.suite :as s]))
 
 (deftest layer-registry-shape

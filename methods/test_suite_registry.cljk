@@ -5,8 +5,8 @@
   draft multicodecs match the landed @etzhayyim/sdk + did-web implementations, Mosca/Grover
   helpers reproduce the paper's headline numbers, and Datom emit is deterministic + ground/derived
   stratified. Tests the cljc-twinned suite + datom-emit modules (no network, pure)."
-  (:require [clojure.test :refer [deftest is]]
-            [clojure.set :as set]
+  (:require [kotoba.test :refer [deftest is]]
+            [kotoba.lang.coll :as set]
             [kotoba.lang.text :as str]
             [post-quantum-compat.methods.suite :as suite]
             [post-quantum-compat.methods.datom-emit :as datom-emit]))

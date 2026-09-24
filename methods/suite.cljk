@@ -9,7 +9,7 @@
 
   Pure stdlib. Keywords are kept as \":ns/name\" STRINGS (not Clojure keywords)
   to mirror the Python source. Non-eschatological framing per Charter §1.15."
-  (:require [clojure.set :as set]))
+  (:require [kotoba.lang.coll :as set]))
 
 ;; ── suite registry (FIPS 203/204 + RFC 9106 constants) ──────────────────────
 
